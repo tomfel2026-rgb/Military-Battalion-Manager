@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.uniqundio.poo.model.VehiculoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in co.edu.uniqundio.poo.model.VehiculoTest
+co.edu.uniqundio.poo.model.VehiculoTest.testConteoMisionesVehiculo -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "co.edu.uniqundio.poo.model.Vehiculo.getMisionesCompletadas()" because "this.vehiculo1" is null
+	at co.edu.uniqundio.poo.model.VehiculoTest.testConteoMisionesVehiculo(VehiculoTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
